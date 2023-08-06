@@ -15,7 +15,7 @@ public class HelloController {
         return "Hola mundo que tal vamos!!! Hasta luego!";
     }
 
-    @GetMapping("/boostrap")
+    @GetMapping("/")
     public String boostrap(){
         return """
                 <!DOCTYPE html>
@@ -33,6 +33,7 @@ public class HelloController {
                   <h1>My First Bootstrap Page</h1>
                   <p>This part is inside a .container-fluid class.</p>
                   <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>
+                <a class="btn btn-primary" href="https://www.marketlatinos.com">Tienda Virtual</a>
                 </div>
                                 
                 </body>
